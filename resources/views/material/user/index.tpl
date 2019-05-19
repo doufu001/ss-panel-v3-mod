@@ -208,14 +208,13 @@
 														5.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可</p>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>进阶方案：<br>
-														1.点击下载<a href="https://static.doufu001.com/shadowsocks/Clash.for.Windows.zip">Clash for Windows</a><br>
+														1.点击下载<a href="https://static.doufu001.com/shadowsocks/Clash.for.Windows.7z">Clash for Windows</a>，解压<br>
 														2.下载<a href="https://clash.doufu001.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
-														3.下载<a href="https://raw.githubusercontent.com/Fndroid/clash_for_windows_pkg/master/Country.mmdb">Country.mmdb数据库</a><br>
-														4.解压Clash到一个文件夹内，进入该文件夹，依次进入/resources/static/files/文件夹<br>
-														5.将下载下来的config.yml和Country.mmdb复制进这个文件夹<br>
-														6.回到Clash主目录，运行Clash for Windows.exe<br>
-														7.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
-														8.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
+														3.进入Clash.for.Windows文件夹，依次进入/resources/static/files/文件夹<br>
+														4.将下载下来的config.yml复制进这个文件夹<br>
+														5.回到Clash.for.Windows目录，运行Clash for Windows.exe<br>
+														6.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
+														7.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
 														<p>XP方案：<br>
 														1.使用本方案后，请务必保证clash客户端处于运行状态，关闭clash后将无法上网！<br>
 														2.点击下载<a href="https://static.doufu001.com/shadowsocks/clash.7z">Clash</a>，解压<br>
