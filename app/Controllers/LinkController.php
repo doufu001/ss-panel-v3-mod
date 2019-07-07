@@ -343,7 +343,7 @@ class LinkController extends BaseController
                                         "plugin_opts": "obfs=http;obfs-host=www.apple.com",
                                         "plugin_args": "",
                                         "remarks": "",
-                                        "timeout": 5
+                                        "timeout": 5));
         }
 
         $json["configs"]=$temparray;
