@@ -374,7 +374,7 @@ dns-server = 114.114.114.114, 119.29.29.29, 223.5.5.5, 8.8.8.8, system
 '.$proxy_group.'
 [Proxy Group]
 
-PROXY = select, 节点1, PROXY, 节点3, 节点4
+PROXY = select, 节点1, 节点2, 节点3, 节点4
 
 [Rule]
 
