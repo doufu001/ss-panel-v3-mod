@@ -339,17 +339,11 @@ class LinkController extends BaseController
                                         "server"=>$item['address'],
                                         "server_port"=>$item['port'],
                                         "method"=>$item['method'],
-                                        "obfs"=>$item['obfs'],
-                                        "obfsparam"=>$item['obfs_param'],
-                                        "remarks_base64"=>base64_encode($item['remark']),
-                                        "password"=>$item['passwd'],
-                                        "tcp_over_udp"=>false,
-                                        "udp_over_tcp"=>false,
-                                        "group"=>$item['group'],
-                                        "protocol"=>$item['protocol'],
-                                        "protoparam"=>$item['protocol_param'],
-                                        "obfs_udp"=>false,
-                                        "enable"=>true));
+                                        "plugin": "obfs-local",
+                                        "plugin_opts": "obfs=http;obfs-host=www.apple.com",
+                                        "plugin_args": "",
+                                        "remarks": "",
+                                        "timeout": 5
         }
 
         $json["configs"]=$temparray;

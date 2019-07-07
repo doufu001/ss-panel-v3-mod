@@ -173,8 +173,6 @@
 															<dd>节点2：s2.mpdf.in</dd>
 															<dd>节点3：s3.mpdf.in</dd>
 															<dd>节点4：s4.mpdf.in</dd>
-															<dd>节点5：s5.mpdf.in</dd>
-															<dd>节点6：s6.mpdf.in</dd>
 															</p>
 
 															<p><dt>端口</dt>
@@ -185,6 +183,12 @@
 
 															<p><dt>加密方式</dt>
 															<dd>{$user->method}</dd></p>
+															
+															<p><dt>混淆</dt>
+															<dd>http</dd></p>
+															
+															<p><dt>混淆参数</dt>
+															<dd>www.apple.com</dd></p>
 
 														</dl>
 														{else}
