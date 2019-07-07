@@ -338,12 +338,10 @@ class LinkController extends BaseController
             array_push($temparray, array("remarks"=>$item['remark'],
                                         "server"=>$item['address'],
                                         "server_port"=>$item['port'],
+                                        "password"=>$item['passwd'],
                                         "method"=>$item['method'],
-                                        "plugin": "obfs-local",
-                                        "plugin_opts": "obfs=http;obfs-host=www.apple.com",
-                                        "plugin_args": "",
-                                        "remarks": "",
-                                        "timeout": 5));
+                                        "plugin"=>"obfs-local",
+                                        "plugin_opts"=>"obfs=http;obfs-host=www.apple.com"));
         }
 
         $json["configs"]=$temparray;
@@ -362,7 +360,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2019.4.9
+        return '# update: 2019.7.7
 		
 [General]
 
@@ -376,7 +374,7 @@ dns-server = 114.114.114.114, 119.29.29.29, 223.5.5.5, 8.8.8.8, system
 '.$proxy_group.'
 [Proxy Group]
 
-PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6
+PROXY = select, 节点1, PROXY, 节点3, 节点4
 
 [Rule]
 
@@ -430,21 +428,17 @@ IP-CIDR,91.108.8.0/22,PROXY,no-resolve
 IP-CIDR,109.239.140.0/24,PROXY,no-resolve
 IP-CIDR,149.154.160.0/20,PROXY,no-resolve
 IP-CIDR,149.154.164.0/22,PROXY,no-resolve
-
-# s2
-DOMAIN-KEYWORD,google,节点2,force-remote-dns
-DOMAIN-SUFFIX,ggpht.com,节点2,force-remote-dns
-DOMAIN-KEYWORD,facebook,节点2,force-remote-dns
-DOMAIN-SUFFIX,instagram.com,节点2,force-remote-dns
-DOMAIN-KEYWORD,whatsapp,节点2,force-remote-dns
-DOMAIN-KEYWORD,twitter,节点2,force-remote-dns
-DOMAIN-SUFFIX,wikipedia.org,节点2,force-remote-dns
-DOMAIN-SUFFIX,wikimedia.org,节点2,force-remote-dns
-DOMAIN-KEYWORD,pinterest,节点2,force-remote-dns
-DOMAIN-SUFFIX,pinimg.com,节点2,force-remote-dns
-DOMAIN-KEYWORD,github,节点2,force-remote-dns
-DOMAIN-KEYWORD,sci-hub,节点2
-DOMAIN-SUFFIX,jkforum.net,节点2
+DOMAIN-KEYWORD,google,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ggpht.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,facebook,PROXY,force-remote-dns
+DOMAIN-SUFFIX,instagram.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,whatsapp,PROXY,force-remote-dns
+DOMAIN-KEYWORD,twitter,PROXY,force-remote-dns
+DOMAIN-SUFFIX,wikipedia.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,wikimedia.org,PROXY,force-remote-dns
+DOMAIN-KEYWORD,pinterest,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pinimg.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,github,PROXY,force-remote-dns
 
 # s3
 DOMAIN-SUFFIX,netflix.com,节点3
@@ -453,11 +447,6 @@ DOMAIN-KEYWORD,nflx,节点3
 # s4
 DOMAIN-KEYWORD,dmm,节点4
 DOMAIN-KEYWORD,line,节点4
-
-# s5
-DOMAIN-SUFFIX,mgoon.com,节点5
-DOMAIN-SUFFIX,vidmix.tv,节点5
-DOMAIN-SUFFIX,wecandeo.com,节点5
 
 # final
 GEOIP,JP,节点4
