@@ -254,7 +254,7 @@
 														1.请确保你的系统版本是5.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
 														3.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">SS客户端</a>，安装<br>
-														4.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">Simple Obfuscation插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
+														4.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">Obfs插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
 														5.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
 														6.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
 														7.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
@@ -269,8 +269,9 @@
 														6.点击底部第一个Switch标签，点右下角的开关，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_linux">
-														<p>1.Linux系统可以使用shadowsocks-qt5，<a href="https://github.com/shadowsocks/shadowsocks-qt5/releases">传送门</a><br>
-														2.使用方法参考<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki">官方文档</a></p>
+														<p>1.下载<a href="https://github.com/Dreamacro/clash/releases">clash</a><br>
+														2.下载<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
+														3.使用方法参考<a href="https://github.com/Dreamacro/clash/blob/master/README.md">官方文档</a></p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_router">
 														<p>使用MTK处理器的路由器（如极路由、小米mini、newifi mini等）可以参考Padavan方案，使用博通处理器的路由器（如华硕ac68u、网件R6400等）可以参考梅林方案。</p>
