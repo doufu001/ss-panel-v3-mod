@@ -301,7 +301,7 @@
 						
 							<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;兑换流量
+									<i class="icon icon-lg">shop</i>&nbsp;兑换商店
 								</a>
 							</li>
 							
