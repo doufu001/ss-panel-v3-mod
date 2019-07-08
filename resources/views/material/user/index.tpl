@@ -184,8 +184,8 @@
 															<p><dt>加密方式</dt>
 															<dd>{$user->method}</dd></p>
 															
-															<p><dt>插件</dt>
-															<dd>obfs-http</dd></p>
+															<p><dt>混淆方式</dt>
+															<dd>http</dd></p>
 															
 															<p><dt>Host</dt>
 															<dd>www.apple.com</dd></p>
@@ -203,7 +203,7 @@
 														2.点击下载<a href="https://static.doufu001.com/shadowsocks/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
-														5.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可</p>
+														5.下载<a href="https://static.doufu001.com/browser/CentDoufu.7z">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可<br>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>进阶方案：<br>
 														1.点击下载<a href="https://static.doufu001.com/shadowsocks/Clash.for.Windows.7z">Clash for Windows</a>，解压<br>
@@ -215,6 +215,13 @@
 														7.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
+														<p>一般方案：<br>
+														1.下载<a href="https://static.doufu001.com/shadowsocks/ShadowsocksX-NG.zip">ShadowsocksX-NG</a>，解压，运行<br>
+														2.点击右上角的纸飞机图标，进入“服务器”-“服务器设置”，点左下方的加号<br>
+														3.地址填写：s1.mpdf.in，如果用其它节点就填具体的数字<br>
+														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
+														5.插件填写：obfs-local，插件选项填写：obfs=http;obfs-host=www.apple.com，确定<br>
+														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
 														<p>进阶方案：<br>
 														1.下载<a href="https://static.doufu001.com/shadowsocks/ClashX.dmg">ClashX</a>，安装<br>
 														2.右键复制<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
@@ -229,10 +236,9 @@
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
 														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号： mpdf0001@gmail.com ，密码： Mpdf2019 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
 														4.点击下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
-														5.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														6.打开Shadowrocket，进入底部的“配置”菜单，点击“添加配置”，把刚才复制的配置粘贴进去，点击“下载”<br>
-														7.点击底部的“远程文件”上的链接，点击“使用配置”，提示“保存代理节点”，点击“保存”<br>
-														8.回到Shadowrocket首页，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														5.长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														6.打开Shadowrocket，会提示“将复制配置添加到您的列表”，点击“添加”<br>
+														7.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 														<p>进阶方案：<br>
 														1.请确保你的系统版本是10.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
@@ -248,16 +254,17 @@
 														1.请确保你的系统版本是5.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
 														3.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">SS客户端</a>，安装<br>
-														4.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
-														5.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
-														5.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
-														6.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
-														7.点击主界面下方的开关，第一次需要授权VPN权限</p>
+														4.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">Simple Obfuscation插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
+														5.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
+														6.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
+														7.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
+														8.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
+														9.点击主界面下方的开关，第一次需要授权VPN权限</p>
 														<p>进阶方案：<br>
 														1.下载<a href="https://static.doufu001.com/shadowsocks/surfboard.apk">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
-														3.运行Surfboard，账号为mpdf0001@gmail.com，密码为12345678<br>
-														4.进入底部第三个Profile标签，点加号，选择第一个Download from url，里面会出现刚才复制的那个地址，点DOWNLOAD<br>
+														3.运行Surfboard，进入底部第三个Profile标签<br>
+														4.点加号，选择第一个Download from url，里面会出现刚才复制的那个地址，点DOWNLOAD<br>
 														5.在出来的Edit profile界面点右下角的保存按钮，OK<br>
 														6.点击底部第一个Switch标签，点右下角的开关，第一次需要授权VPN权限</p>
 													</div>
@@ -268,13 +275,14 @@
 													<div class="tab-pane fade" id="all_ss_router">
 														<p>使用MTK处理器的路由器（如极路由、小米mini、newifi mini等）可以参考Padavan方案，使用博通处理器的路由器（如华硕ac68u、网件R6400等）可以参考梅林方案。</p>
 														<p>Padavan方案：<br>
-														1.想办法刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>
-														2.进入路由器后台，点首页中间第四个纸飞机图标<br>
+														1.刷入<a href="http://www.right.com.cn/forum/thread-161324-1-1.html">Padavan固件</a>，刷机教程自行搜索<br>
+														2.进入路由器后台，点首页中间第四个纸飞机图标，点击“转到详细设置”<br>
 														3.在下方的主服务器处填写：s1.mpdf.in，如果用其它节点就填具体的数字<br>
-														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：aes-256-gcm<br>
-														5.页面上方的“代理类型”确保是SS，打开顶上的开关，点一次“应用本页面设置”</p>
+														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
+														5.插件名称填写：obfs-local，插件参数填写：obfs=http;obfs-host=www.apple.com<br>
+														6.页面上方的“代理类型”确保是SS，打开顶上的ShadowSocks开关，点一次“应用本页面设置”</p>
 														<p>梅林方案：<br>
-														1.想办法刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
+														1.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
 														2.下载<a href="https://github.com/hq450/fancyss">SS插件</a>到电脑<br>
 														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装<br>
 														4.后续操作参考其它平台，切记加密方式选择aes-256-gcm</p>
