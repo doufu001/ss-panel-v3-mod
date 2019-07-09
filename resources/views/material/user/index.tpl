@@ -254,7 +254,7 @@
 														1.请确保你的系统版本是5.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
 														3.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">SS客户端</a>，安装<br>
-														4.下载<a href="https://static.doufu001.com/shadowsocks/shadowsocks.apk">Obfs插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
+														4.下载<a href="https://static.doufu001.com/shadowsocks/simple-obfs.apk">Obfs插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
 														5.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
 														6.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
 														7.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
