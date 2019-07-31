@@ -234,7 +234,7 @@
 														<p>一般方案：<br>
 														1.请确保你的系统版本是9.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
-														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号： mpdf0001@gmail.com ，密码： Mpdf2019 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
+														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号： wuand0003@gmail.com ，密码： Wuan0718 。切记登录的是AppStore账号而不是iCloud账号，否则会泄露隐私甚至锁机！）<br>
 														4.点击下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
 														5.长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														6.打开Shadowrocket，会提示“将复制配置添加到您的列表”，点击“添加”<br>
