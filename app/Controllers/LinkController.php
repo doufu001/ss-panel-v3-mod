@@ -360,7 +360,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2019.7.7
+        return '# update: 2020.2.13
 		
 [General]
 
@@ -374,7 +374,7 @@ dns-server = 114.114.114.114, 119.29.29.29, 223.5.5.5, 8.8.8.8, system
 '.$proxy_group.'
 [Proxy Group]
 
-PROXY = select, 节点1, 节点2, 节点3, 节点4
+PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5
 
 [Rule]
 
@@ -386,70 +386,18 @@ IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,17.0.0.0/8,DIRECT
 IP-CIDR,100.64.0.0/10,DIRECT
-DOMAIN-SUFFIX,baidu.com,DIRECT
-DOMAIN-SUFFIX,bdimg.com,DIRECT
-DOMAIN-SUFFIX,bdstatic.com,DIRECT
-DOMAIN-SUFFIX,alipay.com,DIRECT
-DOMAIN-SUFFIX,taobao.com,DIRECT
-DOMAIN-KEYWORD,alicdn,DIRECT
-DOMAIN-SUFFIX,tmall.com,DIRECT
-DOMAIN-SUFFIX,amap.com,DIRECT
-DOMAIN-SUFFIX,youku.com,DIRECT
-DOMAIN-SUFFIX,qq.com,DIRECT
-USER-AGENT,MicroMessenger Client,DIRECT
-USER-AGENT,WeChat*,DIRECT
-DOMAIN-KEYWORD,ptlogin2,DIRECT
-DOMAIN-SUFFIX,jd.com,DIRECT
-DOMAIN-SUFFIX,iqiyi.com,DIRECT
-DOMAIN-SUFFIX,zhihu.com,DIRECT
-DOMAIN-SUFFIX,bilibili.com,DIRECT
-DOMAIN-SUFFIX,weibo.com,DIRECT
-DOMAIN-SUFFIX,google.cn,DIRECT
-DOMAIN-SUFFIX,google-analytics.com,DIRECT
-DOMAIN-SUFFIX,googletagmanager.com,DIRECT
 
-# s1
-DOMAIN-KEYWORD,scholar,PROXY,force-remote-dns
-DOMAIN-KEYWORD,youtube,PROXY,force-remote-dns
-DOMAIN-SUFFIX,googlevideo.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,ytimg.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,youtu.be,PROXY,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
-DOMAIN-KEYWORD,dropbox,PROXY,force-remote-dns
-DOMAIN-SUFFIX,twitch.tv,PROXY,force-remote-dns
-DOMAIN,hls.itunes.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-DOMAIN,itunes.com,PROXY
-DOMAIN-SUFFIX,piring.com,PROXY
-IP-CIDR,91.108.56.0/22,PROXY,no-resolve
-IP-CIDR,91.108.4.0/22,PROXY,no-resolve
-IP-CIDR,91.108.8.0/22,PROXY,no-resolve
-IP-CIDR,109.239.140.0/24,PROXY,no-resolve
-IP-CIDR,149.154.160.0/20,PROXY,no-resolve
-IP-CIDR,149.154.164.0/22,PROXY,no-resolve
-DOMAIN-KEYWORD,google,PROXY,force-remote-dns
-DOMAIN-SUFFIX,ggpht.com,PROXY,force-remote-dns
-DOMAIN-KEYWORD,facebook,PROXY,force-remote-dns
-DOMAIN-SUFFIX,instagram.com,PROXY,force-remote-dns
-DOMAIN-KEYWORD,whatsapp,PROXY,force-remote-dns
-DOMAIN-KEYWORD,twitter,PROXY,force-remote-dns
-DOMAIN-SUFFIX,wikipedia.org,PROXY,force-remote-dns
-DOMAIN-SUFFIX,wikimedia.org,PROXY,force-remote-dns
-DOMAIN-KEYWORD,pinterest,PROXY,force-remote-dns
-DOMAIN-SUFFIX,pinimg.com,PROXY,force-remote-dns
-DOMAIN-KEYWORD,github,PROXY,force-remote-dns
+# s2
+DOMAIN-KEYWORD,dmm,节点2
+DOMAIN-KEYWORD,line,节点2
 
 # s3
 DOMAIN-SUFFIX,netflix.com,节点3
 DOMAIN-KEYWORD,nflx,节点3
 
-# s4
-DOMAIN-KEYWORD,dmm,节点4
-DOMAIN-KEYWORD,line,节点4
-
 # final
-GEOIP,JP,节点4
+GEOIP,JP,节点2
+GEOIP,KR,节点3
 GEOIP,CN,DIRECT
 FINAL,PROXY
 
