@@ -389,7 +389,6 @@ IP-CIDR,100.64.0.0/10,DIRECT
 
 # s2
 DOMAIN-KEYWORD,dmm,节点2
-DOMAIN-KEYWORD,line,节点2
 
 # s3
 DOMAIN-SUFFIX,netflix.com,节点3
