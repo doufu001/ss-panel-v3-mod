@@ -146,7 +146,7 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_android"><i class="icon icon-lg">android</i>&nbsp;安卓</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_ios"><i class="icon icon-lg">laptop_mac</i>&nbsp;iPhone/iPad</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_ios"><i class="icon icon-lg">laptop_mac</i>&nbsp;iOS</a>
 															</li>
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_mac"><i class="icon icon-lg">laptop_mac</i>&nbsp;Mac</a>
@@ -227,9 +227,10 @@
 														1.下载<a href="https://www.lanzous.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
 														2.右键复制<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
-														4.在右上角ClashX图标上选择“配置”-“托管配置”-“设置地址”<br>
-														5.将刚才复制的那串链接填进去，点击“OK”，会提示update success<br>
-														6.点击右上角ClashX图标上的“设置为系统代理”即可</p>
+														4.在右上角ClashX图标上选择“配置”-“托管配置”-“管理”<br>
+														5.点击“添加”，将刚才复制的那串链接填进去，点击“确定”<br>
+														6.刚才添加的配置出现更新时间后，关掉托管管理窗口<br>
+														7.点击右上角ClashX图标上的“设置为系统代理”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
 														<p>一般方案：<br>
@@ -237,17 +238,22 @@
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
 														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore账号而不是iCloud账号，否则会泄露隐私甚至锁机！）<br>
 														4.点击下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
-														5.点击<a href="{$ss_url_all}">这个链接</a>，选择“打开”<br>
-														6.打开Shadowrocket，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														5.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														6.打开Shadowrocket，点击底部第二个“配置”标签，点击“添加配置”<br>
+														7.将刚才复制的链接粘贴进去，点击“下载”<br>
+														8.点击下方出现的那行链接，选择“使用配置”<br>
+														9.提示保存代理节点，选择“保存”<br>
+														10.回到首页，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 														<p>进阶方案：<br>
 														1.请确保你的系统版本是10.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
 														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
-														4.点击下载<a href="https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8">Quantumult</a><br>
-														5.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														6.打开Quantumult，进入底部的“设置”菜单，滑到页面下方，点击“下载配置文件”，把刚才复制的配置粘贴进去，点击“好”<br>
-														7.下载配置成功后会显示出来，点击“保存”<br>
-														8.回到Quantumult首页，点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														4.点击下载<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a><br>
+														5.长按<a href="http://cloudcompute.lbyczf.com/surge2quanx?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														6.打开Quantumult X，进入右下角的按钮，进入设置页<br>
+														7.点击“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
+														8.回到首页，长按右下角的按钮，选择同时含有三个颜色的那个<br>
+														9.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>一般方案：<br>
@@ -263,10 +269,10 @@
 														<p>进阶方案：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v2kf" target="_blank">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
-														3.运行Surfboard，进入底部第三个Profile标签<br>
-														4.点加号，选择第一个Download from url，里面会出现刚才复制的那个地址，点DOWNLOAD<br>
-														5.在出来的Edit profile界面点右下角的保存按钮，OK<br>
-														6.点击底部第一个Switch标签，点右下角的开关，第一次需要授权VPN权限</p>
+														3.运行Surfboard，进入底部第三个“配置”标签<br>
+														4.点加号，选择第一个“使用链接下载”，里面会出现刚才复制的那个地址，点击“下载”<br>
+														5.在出来的编辑配置界面点右下角的保存按钮，“好的”<br>
+														6.点击底部第一个“切换”标签，点右下角的开关，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_linux">
 														<p>1.下载<a href="https://github.com/Dreamacro/clash/releases" target="_blank">clash</a><br>
