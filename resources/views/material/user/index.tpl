@@ -237,13 +237,9 @@
 														1.请确保你的系统版本是9.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
 														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore账号而不是iCloud账号，否则会泄露隐私甚至锁机！）<br>
-														4.点击下载<a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8">Shadowrocket</a><br>
-														5.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														6.打开Shadowrocket，点击底部第二个“配置”标签，点击“添加配置”<br>
-														7.将刚才复制的链接粘贴进去，点击“下载”<br>
-														8.点击下方出现的那行链接，选择“使用配置”<br>
-														9.提示保存代理节点，选择“保存”<br>
-														10.回到首页，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														4.点击下载<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
+														5.点击<a href="{$ss_url_all}">这个链接</a>，选择“打开”<br>
+														6.打开Shadowrocket，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 														<p>进阶方案：<br>
 														1.请确保你的系统版本是10.0或更高<br>
 														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
