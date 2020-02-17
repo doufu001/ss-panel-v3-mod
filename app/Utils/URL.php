@@ -275,7 +275,7 @@ class URL
                     $ssurl .= "?plugin=".rawurlencode($plugin);
                 }
 
-                $ssurl .= "#".rawurlencode($item['remark']);
+                $ssurl .= ";obfs-uri=/#".rawurlencode($item['remark']);
             }
             return $ssurl;
         }
