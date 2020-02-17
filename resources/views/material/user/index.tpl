@@ -246,9 +246,9 @@
 														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
 														4.点击下载<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a><br>
 														5.长按<a href="http://cloudcompute.lbyczf.com/surge2quanx?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														6.打开Quantumult X，进入右下角的按钮，进入设置页<br>
-														7.点击“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
-														8.回到首页，长按右下角的按钮，选择同时含有三个颜色的那个<br>
+														6.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
+														7.点击顶部的“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
+														8.回到首页，长按右下方的圆形按钮，选择同时含有三个颜色的那个<br>
 														9.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
