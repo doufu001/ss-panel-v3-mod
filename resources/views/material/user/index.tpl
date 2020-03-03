@@ -252,15 +252,13 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>一般方案：<br>
-														1.请确保你的系统版本是5.0或更高<br>
-														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
-														3.下载<a href="https://www.lanzous.com/b00c4v25a" target="_blank">SS客户端</a>，安装<br>
-														4.下载<a href="https://www.lanzous.com/i9aqcpc" target="_blank">Obfs插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
-														5.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
-														6.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
-														7.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
-														8.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
-														9.点击主界面下方的开关，第一次需要授权VPN权限</p>
+														1.下载<a href="https://www.lanzous.com/b00c4v25a" target="_blank">SS客户端</a>（Chrome无法下载蓝奏网盘文件，请到群文件下载），安装<br>
+														2.下载<a href="https://www.lanzous.com/i9aqcpc" target="_blank">Obfs插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
+														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
+														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
+														5.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
+														6.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
+														7.点击主界面下方的开关，第一次需要授权VPN权限</p>
 														<p>进阶方案：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v2kf" target="_blank">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
