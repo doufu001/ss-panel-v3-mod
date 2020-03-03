@@ -360,7 +360,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2020.2.13
+        return '# update: 2020.3.3
 		
 [General]
 
@@ -374,29 +374,24 @@ dns-server = 114.114.114.114, 119.29.29.29, 223.5.5.5, 8.8.8.8, system
 '.$proxy_group.'
 [Proxy Group]
 
-PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5
+PROXY = select, 节点1, 节点2, 节点3, 节点4
 
 [Rule]
 
 # direct
-DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
-IP-CIDR,10.0.0.0/8,DIRECT
-IP-CIDR,17.0.0.0/8,DIRECT
-IP-CIDR,100.64.0.0/10,DIRECT
+IP-CIDR,224.0.0.0/24,DIRECT
 
 # s2
-DOMAIN-KEYWORD,dmm,节点2
-
-# s3
-DOMAIN-SUFFIX,netflix.com,节点3
-DOMAIN-KEYWORD,nflx,节点3
+DOMAIN-KEYWORD,sci-hub,节点2
+DOMAIN-SUFFIX,netflix.com,节点2
+DOMAIN-KEYWORD,nflx,节点2
 
 # final
-GEOIP,JP,节点2
-GEOIP,KR,节点3
+GEOIP,KR,节点2
 GEOIP,CN,DIRECT
 FINAL,PROXY
 
