@@ -171,9 +171,8 @@
 															<dt>服务器地址</dt>
 															<dd>节点1：s1.mpdf.in</dd>
 															<dd>节点2：s2.mpdf.in</dd>
-															<dd>节点3：s3.mpdf.in</dd>
+															<dd>节点3：s3.mpdf.in（等级0不可见）</dd>
 															<dd>节点4：s4.mpdf.in（等级0不可见）</dd>
-															<dd>节点5：s5.mpdf.in（等级0不可见）</dd>
 															</p>
 
 															<p><dt>端口</dt>
