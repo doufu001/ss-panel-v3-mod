@@ -234,25 +234,23 @@
 													<div class="tab-pane fade" id="all_ss_ios">
 														<p>一般方案：<br>
 														1.请确保你的系统版本是9.0或更高<br>
-														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
-														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore账号而不是iCloud账号，否则会泄露隐私甚至锁机！）<br>
-														4.点击下载<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
-														5.点击<a href="{$ss_url_all}">这个链接</a>，选择“打开”<br>
-														6.打开Shadowrocket，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														2.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore账号而不是iCloud账号，否则会泄露隐私甚至锁机！）<br>
+														3.点击下载<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
+														4.点击<a href="{$ss_url_all}">这个链接</a>，选择“打开”<br>
+														5.打开Shadowrocket，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 														<p>进阶方案：<br>
 														1.请确保你的系统版本是10.0或更高<br>
-														2.请确保当前页面是由系统自带浏览器打开，切记不要在微信内打开本页面<br>
-														3.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
-														4.点击下载<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a><br>
-														5.长按<a href="http://cloudcompute.lbyczf.com/surge2quanx?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														6.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
-														7.点击顶部的“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
-														8.回到首页，长按右下方的圆形按钮，选择同时含有三个颜色的那个<br>
-														9.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														2.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
+														3.点击下载<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a>（搜不到的话到已购里下载）<br>
+														4.长按<a href="http://cloudcompute.lbyczf.com/surge2quanx?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														5.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
+														6.点击顶部的“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
+														7.回到首页，长按右下方的圆形按钮，选择同时含有三个颜色的那个<br>
+														8.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>一般方案：<br>
-														1.下载<a href="https://www.lanzous.com/b00c4v25a" target="_blank">SS客户端</a>（Chrome无法下载蓝奏网盘文件，请到群文件下载），安装<br>
+														1.下载<a href="https://www.lanzous.com/b00c4v25a" target="_blank">SS客户端</a>，安装（Chrome无法下载蓝奏网盘文件，可以到QQ群文件下载）<br>
 														2.下载<a href="https://www.lanzous.com/i9aqcpc" target="_blank">Obfs插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
 														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
 														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
