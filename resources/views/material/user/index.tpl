@@ -251,7 +251,7 @@
 													<div class="tab-pane fade" id="all_ss_android">
 														<p>一般方案：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v25a" target="_blank">SS客户端</a>，安装（Chrome无法下载蓝奏网盘文件，可以到QQ群文件下载）<br>
-														2.下载<a href="https://www.lanzous.com/i9aqcpc" target="_blank">Obfs插件</a>，安装，部分国产手机需要给这个插件设置自启权限<br>
+														2.下载<a href="https://www.lanzous.com/i9aqcpc" target="_blank">Obfs插件</a>，安装，部分国产手机需要给这个插件设置关联启动权限<br>
 														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
 														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
 														5.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
