@@ -205,8 +205,8 @@
 														<p>Clash方案：<br>
 														1.点击下载<a href="https://www.lanzous.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
 														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
-														3.运行运行Clash for Windows.exe，打开主界面<br>
-														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部Download from a URL处，点击Download按钮<br>
+														3.运行Clash for Windows.exe，打开主界面<br>
+														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部“Download from a URL”处，点击右侧的“Download”按钮<br>
 														5.选中刚刚下载的sub配置<br>
 														6.下载<a href="https://www.lanzous.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
 														7.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
@@ -273,7 +273,7 @@
 														5.在出来的编辑配置界面点右下角的保存按钮，“好的”<br>
 														6.点击底部第一个“切换”标签，点右下角的开关，第一次需要授权VPN权限</p>
 														<p>Clash方案：<br>
-														1.下载<a href="https://dl.doufu.in/Clash.apk">Surfboard客户端</a>，安装<br>
+														1.下载<a href="https://dl.doufu.in/Clash.apk">Clash客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Clash，进入顶部部第二个“配置”按钮<br>
 														4.点击“新配置”，选择“URL”<br>
