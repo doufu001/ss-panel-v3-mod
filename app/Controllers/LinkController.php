@@ -360,7 +360,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2020.3.3
+        return '# update: 2020.7.26
 		
 [General]
 
@@ -385,12 +385,14 @@ IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,224.0.0.0/24,DIRECT
 
-# s2
-DOMAIN-KEYWORD,sci-hub,节点2
-DOMAIN-SUFFIX,netflix.com,节点2
-DOMAIN-KEYWORD,nflx,节点2
+# proxy
+DOMAIN-SUFFIX,apps.apple.com,PROXY
+
+# jp
+DOMAIN-KEYWORD,dmm.co,节点1
 
 # final
+GEOIP,JP,节点1
 GEOIP,KR,节点2
 GEOIP,CN,DIRECT
 FINAL,PROXY

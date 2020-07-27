@@ -171,8 +171,8 @@
 															<dt>服务器地址</dt>
 															<dd>节点1：s1.mpdf.in</dd>
 															<dd>节点2：s2.mpdf.in</dd>
-															<dd>节点3：s3.mpdf.in（等级0不可见）</dd>
-															<dd>节点4：s4.mpdf.in（等级0不可见）</dd>
+															<dd>节点3：s3.mpdf.in</dd>
+															<dd>节点4：s4.mpdf.in</dd>
 															</p>
 
 															<p><dt>端口</dt>
@@ -198,33 +198,33 @@
 													</div>
 													<div class="tab-pane fade" id="all_ss_windows">
 														
-														<p>一般方案：<br>
-														1.SS客户端依赖.net 4.6.2，Win10 1607开始已经集成，如果系统低于Win10 1607（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
-														2.点击下载<a href="https://www.lanzous.com/b00c4v22h" target="_blank">SS客户端</a>，解压<br>
+														<p>官方SS方案：<br>
+														1.SS客户端依赖.net 4.6.2，Win10 1607开始已经集成，如果系统是在2016年前发布的（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
+														2.点击下载<a href="https://dl.doufu.in/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
 														5.下载<a href="https://www.lanzous.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可<br>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
-														<p>进阶方案：<br>
-														1.点击下载<a href="https://www.lanzous.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压<br>
-														2.下载<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
-														3.进入Clash.for.Windows文件夹，依次进入/resources/static/files/文件夹<br>
-														4.将下载下来的config.yml复制进这个文件夹<br>
-														5.回到Clash.for.Windows目录，运行Clash for Windows.exe<br>
+														<p>Clash方案：<br>
+														1.点击下载<a href="https://www.lanzous.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
+														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														3.运行运行Clash for Windows.exe，打开主界面<br>
+														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部Download from a URL处，点击Download按钮<br>
+														5.选中刚刚下载的sub配置<br>
 														6.下载<a href="https://www.lanzous.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
 														7.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
-														<p>一般方案：<br>
+														<p>官方SS方案：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v26b" target="_blank">ShadowsocksX-NG</a>，解压，运行<br>
 														2.点击右上角的纸飞机图标，进入“服务器”-“服务器设置”，点左下方的加号<br>
-														3.地址填写：s1.mpdf.in，如果用其它节点就填具体的数字<br>
+														3.地址填写：s1.mpdf.in，如果用其它节点就把1改成别的数字<br>
 														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
 														5.插件填写：obfs-local，插件选项填写：obfs=http;obfs-host=www.apple.com，确定<br>
 														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
-														<p>进阶方案：<br>
+														<p>ClashX方案：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
-														2.右键复制<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“管理”<br>
 														5.点击“添加”，将刚才复制的那串链接填进去，点击“确定”<br>
@@ -232,43 +232,57 @@
 														7.点击右上角ClashX图标上的“设置为系统代理”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
-														<p>一般方案：<br>
-														1.请确保你的系统版本是9.0或更高<br>
-														2.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore账号而不是iCloud账号，否则会泄露隐私甚至锁机！）<br>
-														3.点击下载<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
-														4.点击<a href="{$ss_url_all}">这个链接</a>，选择“打开”<br>
-														5.打开Shadowrocket，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
-														<p>进阶方案：<br>
-														1.请确保你的系统版本是10.0或更高<br>
-														2.按照<a href="https://github.com/doufu001/doufu001/issues/1">切换账号教程</a>切换AppStore账号为公共美区账号（账号：wuand0001@gmail.com ，密码：Wuan1128 。切记登录的是AppStore而不是iCloud，否则会泄露隐私甚至锁机！）<br>
-														3.点击下载<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a>（搜不到的话到已购里下载）<br>
-														4.长按<a href="http://cloudcompute.lbyczf.com/surge2quanx?url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														5.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
-														6.点击顶部的“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
-														7.回到首页，长按右下方的圆形按钮，选择同时含有三个颜色的那个<br>
-														8.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														<p>由于苹果频繁封禁公共账号，故不再此处提供公共账号，请关注QQ群内动态。建议自行注册美区/港区/日区等账号，并参考网上的App购买攻略</p>
+														<p>shadowrocket方案：<br>
+														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
+														2.点击<a href="{$ss_url_all}">这个链接</a>，选择“打开”<br>
+														3.打开Shadowrocket，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														<p>Quantumult方案：<br>
+														1.请确保你已经安装了<a href="https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8">Quantumult</a><br>
+														2.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														3.打开Quantumult，进入底部的“设置”菜单，滑到页面下方，点击“下载配置文件”，把刚才复制的配置粘贴进去，点击“好”<br>
+														4.下载配置成功后会显示出来，点击“保存”<br>
+														5.回到Quantumult首页，点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														<p>Quantumult X方案：<br>
+														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a><br>
+														2.长按<a href="https://sub.doufu.in/sub?target=quanx&list=true&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														3.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
+														4.点击顶部的“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
+														5.回到首页，长按右下方的圆形按钮，选择第二个按钮（同时含有三个颜色的那个）<br>
+														6.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														<p>Surge方案：<br>
+														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/surge-4/id1442620678">Surge</a><br>
+														2.长按<a href="https://sub.doufu.in/sub?target=surge&ver=4&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														3.打开App，导入该订阅地址</p>
+														<p>Loon方案：<br>
+														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/loon/id1373567447">Loon</a><br>
+														2.长按<a href="https://sub.doufu.in/sub?target=loon&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														3.打开App，导入该订阅地址</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
-														<p>一般方案：<br>
-														1.下载<a href="https://www.lanzous.com/b00c4v25a" target="_blank">SS客户端</a>，安装（Chrome无法下载蓝奏网盘文件，可以到QQ群文件下载）<br>
-														2.下载<a href="https://www.lanzous.com/i9aqcpc" target="_blank">Obfs插件</a>，安装，部分国产手机需要给这个插件设置关联启动权限<br>
+														<p>官方SS方案：<br>
+														1.下载<a href="https://dl.doufu.in/shadowsocks.apk">SS客户端</a>，安装<br>
+														2.下载<a href="https://dl.doufu.in/simple-obfs.apk">Obfs插件</a>，安装，部分国产手机需要给这个插件设置关联启动权限<br>
 														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
 														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
 														5.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
 														6.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
 														7.点击主界面下方的开关，第一次需要授权VPN权限</p>
-														<p>进阶方案：<br>
-														1.下载<a href="https://www.lanzous.com/b00c4v2kf" target="_blank">Surfboard客户端</a>，安装<br>
+														<p>Surfboard方案：<br>
+														1.下载<a href="https://dl.doufu.in/Surfboard.apk">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Surfboard，进入底部第三个“配置”标签<br>
 														4.点加号，选择第一个“使用链接下载”，里面会出现刚才复制的那个地址，点击“下载”<br>
 														5.在出来的编辑配置界面点右下角的保存按钮，“好的”<br>
 														6.点击底部第一个“切换”标签，点右下角的开关，第一次需要授权VPN权限</p>
-													</div>
-													<div class="tab-pane fade" id="all_ss_linux">
-														<p>1.下载<a href="https://github.com/Dreamacro/clash/releases" target="_blank">clash</a><br>
-														2.下载<a href="https://tgbot.lbyczf.com/surge2clash?url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
-														3.使用方法参考<a href="https://github.com/Dreamacro/clash/blob/master/README.md">官方文档</a></p>
+														<p>Clash方案：<br>
+														1.下载<a href="https://dl.doufu.in/Clash.apk">Surfboard客户端</a>，安装<br>
+														2.在手机浏览器中长按<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
+														3.运行Clash，进入顶部部第二个“配置”按钮<br>
+														4.点击“新配置”，选择“URL”<br>
+														5.在出来的界面点击“URL”，将刚刚复制的链接粘贴进去，点确认<br>
+														6.点击右上角的保存按钮，在配置页面选中刚刚创建的配置<br>
+														7.返回首页，点击最顶上“已停止”按钮，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_router">
 														<p>使用MTK处理器的路由器（如极路由、小米mini、newifi mini等）可以参考Padavan方案，使用博通处理器的路由器（如华硕ac68u、网件R6400等）可以参考梅林方案。</p>
