@@ -196,7 +196,7 @@
 													<div class="tab-pane fade" id="all_ss_windows">
 														
 														<p>官方SS方案：<br>
-														1.SS客户端依赖.net 4.6.2，Win10 1607开始已经集成，如果系统是在2016年前发布的（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
+														1.SS客户端依赖.net 4.6.2环境，Win10 1607开始已经集成，如果系统是在2016年前发布的（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
 														2.点击下载<a href="https://dl.doufu.in/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
@@ -204,7 +204,7 @@
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>Clash方案：<br>
 														1.点击下载<a href="https://www.lanzous.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
-														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/doufu.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行Clash for Windows.exe，打开主界面<br>
 														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部“Download from a URL”处，点击右侧的“Download”按钮<br>
 														5.选中刚刚下载的sub配置<br>
@@ -221,7 +221,7 @@
 														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
 														<p>ClashX方案：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
-														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/doufu.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“管理”<br>
 														5.点击“添加”，将刚才复制的那串链接填进去，点击“确定”<br>
@@ -249,11 +249,11 @@
 														6.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 														<p>Surge方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/surge-4/id1442620678">Surge</a><br>
-														2.长按<a href="https://sub.doufu.in/sub?target=surge&ver=4&config=https://p.doufu.in/doufu.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.doufu.in/sub?target=surge&ver=4&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开App，导入该订阅地址</p>
 														<p>Loon方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/loon/id1373567447">Loon</a><br>
-														2.长按<a href="https://sub.doufu.in/sub?target=loon&config=https://p.doufu.in/doufu.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.doufu.in/sub?target=loon&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开App，导入该订阅地址</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
@@ -274,7 +274,7 @@
 														6.点击底部第一个“切换”标签，点右下角的开关，第一次需要授权VPN权限</p>
 														<p>Clash方案：<br>
 														1.下载<a href="https://dl.doufu.in/Clash.apk">Clash客户端</a>，安装<br>
-														2.在手机浏览器中长按<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/doufu.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
+														2.在手机浏览器中长按<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Clash，进入顶部部第二个“配置”按钮<br>
 														4.点击“新配置”，选择“URL”<br>
 														5.在出来的界面点击“URL”，将刚刚复制的链接粘贴进去，点确认<br>
