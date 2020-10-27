@@ -166,10 +166,10 @@
 														<dl class="dl-horizontal">
 															<p>
 															<dt>服务器地址</dt>
-															<dd>节点1：s1.mpdf.in</dd>
-															<dd>节点2：s2.mpdf.in</dd>
-															<dd>节点3：s3.mpdf.in</dd>
-															<dd>节点4：s4.mpdf.in</dd>
+															<dd>节点1：s1.doufu.in</dd>
+															<dd>节点2：s2.doufu.in</dd>
+															<dd>节点3：s3.doufu.in</dd>
+															<dd>节点4：s4.doufu.in</dd>
 															</p>
 
 															<p><dt>端口</dt>
@@ -215,7 +215,7 @@
 														<p>官方SS方案：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v26b" target="_blank">ShadowsocksX-NG</a>，解压，运行<br>
 														2.点击右上角的纸飞机图标，进入“服务器”-“服务器设置”，点左下方的加号<br>
-														3.地址填写：s1.mpdf.in，如果用其它节点就把1改成别的数字<br>
+														3.地址填写：s1.doufu.in，如果用其它节点就把1改成别的数字<br>
 														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
 														5.插件填写：obfs-local，插件选项填写：obfs=http;obfs-host=www.apple.com，确定<br>
 														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
@@ -286,7 +286,7 @@
 														<p>Padavan方案：<br>
 														1.刷入<a href="https://opt.cn2qq.com/padavan/" target="_blank">Padavan固件</a>，刷机教程自行搜索<br>
 														2.进入路由器后台，点首页中间第四个纸飞机图标，点击“转到详细设置”<br>
-														3.在下方的主服务器处填写：s1.mpdf.in，如果用其它节点就填具体的数字<br>
+														3.在下方的主服务器处填写：s1.doufu.in，如果用其它节点就填具体的数字<br>
 														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
 														5.插件名称填写：obfs-local，插件参数填写：obfs=http;obfs-host=www.apple.com<br>
 														6.页面上方的“代理类型”确保是SS，打开顶上的ShadowSocks开关，点一次“应用本页面设置”</p>
