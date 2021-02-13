@@ -196,7 +196,7 @@
 													<div class="tab-pane fade" id="all_ss_windows">
 														
 														<p>官方SS方案：<br>
-														1.SS客户端依赖.NET 4.8环境，Win10 1905开始已经集成，如果系统是在2019年前发布的（包括Win7 SP1、Win8.1、Win10 1607-1809），请下载并安装<a href="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe">.NET 4.8环境</a><br>
+														1.SS客户端依赖.NET 4.8环境，Win10 1903开始已经集成，如果系统是在2019年前发布的（包括Win7 SP1、Win8.1、Win10 1607-1809），请下载并安装<a href="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe">.NET 4.8环境</a><br>
 														2.点击下载<a href="https://dl.doufu.in/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
