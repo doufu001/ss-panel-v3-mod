@@ -196,13 +196,13 @@
 													<div class="tab-pane fade" id="all_ss_windows">
 														
 														<p>官方SS方案：<br>
-														1.SS客户端依赖.net 4.6.2环境，Win10 1607开始已经集成，如果系统是在2016年前发布的（包括Win7 SP1、Win8.1、Win10 1507、Win10 1511），请下载并安装<a href="https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe">.net 4.6.2环境</a><br>
+														1.SS客户端依赖.NET 4.8环境，Win10 1905开始已经集成，如果系统是在2019年前发布的（包括Win7 SP1、Win8.1、Win10 1607-1809），请下载并安装<a href="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe">.NET 4.8环境</a><br>
 														2.点击下载<a href="https://dl.doufu.in/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
 														5.下载<a href="https://www.lanzous.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可<br>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
-														<p>Clash方案：<br>
+														<p>Clash方案（推荐）：<br>
 														1.点击下载<a href="https://www.lanzous.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
 														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行Clash for Windows.exe，打开主界面<br>
@@ -219,7 +219,7 @@
 														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
 														5.插件填写：obfs-local，插件选项填写：obfs=http;obfs-host=www.apple.com，确定<br>
 														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
-														<p>ClashX方案：<br>
+														<p>ClashX方案（推荐）：<br>
 														1.下载<a href="https://www.lanzous.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
 														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
@@ -229,24 +229,26 @@
 														7.点击右上角ClashX图标上的“设置为系统代理”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
-														<p>由于苹果频繁封禁公共账号，故不再此处提供公共账号，请关注QQ群内动态。建议自行注册美区/港区/日区等账号，并参考网上的App购买攻略</p>
-														<p>shadowrocket方案：<br>
+														<p>由于苹果频繁封禁公共账号，故不再此处提供公共账号，请关注群公告。建议自行注册美区/港区/日区等Apple账号，并参考网上的支付攻略</p>
+														<p>Shadowrocket方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
-														2.点击<a href="{$ss_url_all}">这个链接</a>，选择“打开”<br>
-														3.打开Shadowrocket，点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
-														<p>Quantumult方案：<br>
-														1.请确保你已经安装了<a href="https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8">Quantumult</a><br>
-														2.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														3.打开Quantumult，进入底部的“设置”菜单，滑到页面下方，点击“下载配置文件”，把刚才复制的配置粘贴进去，点击“好”<br>
-														4.下载配置成功后会显示出来，点击“保存”<br>
-														5.回到Quantumult首页，点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
-														<p>Quantumult X方案：<br>
+														2.长按<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														3.打开Shadowrocket，点击顶部右上角的加号，点击“类型”，选择“Subscribe”<br>
+														4.在URL处粘贴你复制的链接，点击完成<br>
+														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														<p>Quantumult X方案（推荐）：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a><br>
 														2.长按<a href="https://sub.doufu.in/sub?target=quanx&list=true&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
 														4.点击顶部的“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
 														5.回到首页，长按右下方的圆形按钮，选择第二个按钮（同时含有三个颜色的那个）<br>
 														6.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														<p>Quantumult方案：<br>
+														1.请确保你已经安装了<a href="https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8">Quantumult</a><br>
+														2.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														3.打开Quantumult，进入底部的“设置”菜单，滑到页面下方，点击“下载配置文件”，把刚才复制的配置粘贴进去，点击“好”<br>
+														4.下载配置成功后会显示出来，点击“保存”<br>
+														5.回到Quantumult首页，点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 														<p>Surge方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/surge-4/id1442620678">Surge</a><br>
 														2.长按<a href="https://sub.doufu.in/sub?target=surge&ver=4&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
@@ -265,7 +267,7 @@
 														5.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
 														6.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
 														7.点击主界面下方的开关，第一次需要授权VPN权限</p>
-														<p>Surfboard方案：<br>
+														<p>Surfboard方案（推荐）：<br>
 														1.下载<a href="https://dl.doufu.in/Surfboard.apk">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Surfboard，进入底部第三个“配置”标签<br>
@@ -292,8 +294,8 @@
 														6.页面上方的“代理类型”确保是SS，打开顶上的ShadowSocks开关，点一次“应用本页面设置”</p>
 														<p>梅林方案：<br>
 														1.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
-														2.下载<a href="https://github.com/hq450/fancyss">SS插件</a>到电脑<br>
-														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装<br>
+														2.下载<a href="https://github.com/hq450/fancyss">科学上网插件</a>到电脑<br>
+														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（部分新机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
 														4.后续操作参考其它平台，切记加密方式选择xchacha20-ietf-poly1305</p>
 													</div>
 												</div>
