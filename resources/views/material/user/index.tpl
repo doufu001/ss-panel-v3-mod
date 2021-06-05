@@ -200,27 +200,27 @@
 														2.点击下载<a href="https://dl.doufu.in/Shadowsocks.7z">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe<br>
-														5.下载<a href="https://www.lanzous.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可<br>
+														5.下载<a href="https://wwi.lanzoui.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可<br>
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>Clash方案（推荐）：<br>
-														1.点击下载<a href="https://www.lanzous.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
+														1.点击下载<a href="https://wwi.lanzoui.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
 														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行Clash for Windows.exe，打开主界面<br>
 														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部“Download from a URL”处，点击右侧的“Download”按钮<br>
 														5.选中刚刚下载的sub配置<br>
-														6.下载<a href="https://www.lanzous.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
+														6.下载<a href="https://wwi.lanzoui.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
 														7.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
 														<p>官方SS方案：<br>
-														1.下载<a href="https://www.lanzous.com/b00c4v26b" target="_blank">ShadowsocksX-NG</a>，解压，运行<br>
+														1.下载<a href="https://wwi.lanzoui.com/b00c4v26b" target="_blank">ShadowsocksX-NG</a>，解压，运行<br>
 														2.点击右上角的纸飞机图标，进入“服务器”-“服务器设置”，点左下方的加号<br>
 														3.地址填写：s1.doufu.in，如果用其它节点就把1改成别的数字<br>
 														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
 														5.插件填写：obfs-local，插件选项填写：obfs=http;obfs-host=www.apple.com，确定<br>
 														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
 														<p>ClashX方案（推荐）：<br>
-														1.下载<a href="https://www.lanzous.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
+														1.下载<a href="https://wwi.lanzoui.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
 														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“管理”<br>
