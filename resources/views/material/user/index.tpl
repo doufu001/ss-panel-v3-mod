@@ -170,6 +170,8 @@
 															<dd>节点2：s2.doufu.in</dd>
 															<dd>节点3：s3.doufu.in</dd>
 															<dd>节点4：s4.doufu.in</dd>
+															<dd>节点5：s5.doufu.in</dd>
+															<dd>节点6：s6.doufu.in</dd>
 															</p>
 
 															<p><dt>端口</dt>
@@ -204,7 +206,7 @@
 														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
 														<p>Clash方案（推荐）：<br>
 														1.点击下载<a href="https://wwi.lanzoui.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
-														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行Clash for Windows.exe，打开主界面<br>
 														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部“Download from a URL”处，点击右侧的“Download”按钮<br>
 														5.选中刚刚下载的sub配置<br>
@@ -221,7 +223,7 @@
 														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
 														<p>ClashX方案（推荐）：<br>
 														1.下载<a href="https://wwi.lanzoui.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
-														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“管理”<br>
 														5.点击“添加”，将刚才复制的那串链接填进去，点击“确定”<br>
@@ -232,7 +234,7 @@
 														<p>由于苹果频繁封禁公共账号，故不再此处提供公共账号，请关注群公告。建议自行注册美区/港区/日区等Apple账号，并参考网上的支付攻略</p>
 														<p>Shadowrocket方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
-														2.长按<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Shadowrocket，点击顶部右上角的加号，点击“类型”，选择“Subscribe”<br>
 														4.在URL处粘贴你复制的链接，点击完成<br>
 														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
@@ -251,11 +253,11 @@
 														5.回到Quantumult首页，点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
 														<p>Surge方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/surge-4/id1442620678">Surge</a><br>
-														2.长按<a href="https://sub.doufu.in/sub?target=surge&ver=4&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.doufu.in/sub?target=surge&ver=4&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开App，导入该订阅地址</p>
 														<p>Loon方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/loon/id1373567447">Loon</a><br>
-														2.长按<a href="https://sub.doufu.in/sub?target=loon&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.doufu.in/sub?target=loon&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开App，导入该订阅地址</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
@@ -276,7 +278,7 @@
 														6.点击底部第一个“切换”标签，点右下角的开关，第一次需要授权VPN权限</p>
 														<p>Clash方案：<br>
 														1.下载<a href="https://dl.doufu.in/Clash.apk">Clash客户端</a>，安装<br>
-														2.在手机浏览器中长按<a href="https://sub.doufu.in/sub?target=clash&config=https://p.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
+														2.在手机浏览器中长按<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Clash，进入顶部部第二个“配置”按钮<br>
 														4.点击“新配置”，选择“URL”<br>
 														5.在出来的界面点击“URL”，将刚刚复制的链接粘贴进去，点确认<br>
@@ -284,7 +286,7 @@
 														7.返回首页，点击最顶上“已停止”按钮，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_router">
-														<p>使用MTK处理器的路由器（如极路由、小米mini、newifi mini等）可以参考Padavan方案，使用博通处理器的路由器（如华硕ac68u、网件R6400等）可以参考梅林方案。</p>
+														<p>使用MTK处理器的路由器（如红米AC2100、斐讯K2P等）可以参考Padavan方案，使用博通处理器的路由器（如华硕TUF-AX3000、网件RAX50等）可以参考梅林方案。</p>
 														<p>Padavan方案：<br>
 														1.刷入<a href="https://opt.cn2qq.com/padavan/" target="_blank">Padavan固件</a>，刷机教程自行搜索<br>
 														2.进入路由器后台，点首页中间第四个纸飞机图标，点击“转到详细设置”<br>
@@ -292,10 +294,19 @@
 														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
 														5.插件名称填写：obfs-local，插件参数填写：obfs=http;obfs-host=www.apple.com<br>
 														6.页面上方的“代理类型”确保是SS，打开顶上的ShadowSocks开关，点一次“应用本页面设置”</p>
-														<p>梅林方案：<br>
+														<p>梅林Clash方案：<br>
+														1.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
+														2.下载<a href="https://t.me/merlinclashcat/300">MerlinClash插件</a>到电脑<br>
+														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（新机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
+														4.进入Merlin Clash插件，进入“配置文件”标签<br>
+														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
+														6.在“重命名”里随意填一个名字，例如clash，点击“Clash订阅”<br>
+														7.回到首页，打开顶部的“Merlin Clash开关”，“配置文件选择”处选中刚才添加的配置，点击最下方的“保存&应用”<br>
+														8.首页的“访问 Clash 管理面板”可以切换节点<br>
+														<p>梅林SS方案：<br>
 														1.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
 														2.下载<a href="https://github.com/hq450/fancyss">科学上网插件</a>到电脑<br>
-														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（部分新机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
+														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（新机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
 														4.后续操作参考其它平台，切记加密方式选择xchacha20-ietf-poly1305</p>
 													</div>
 												</div>
