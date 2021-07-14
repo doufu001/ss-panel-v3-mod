@@ -360,7 +360,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2020.7.26
+        return '# update: 2021.7.14
 		
 [General]
 
@@ -374,36 +374,17 @@ dns-server = 114.114.114.114, 119.29.29.29, 223.5.5.5, 8.8.8.8, system
 '.$proxy_group.'
 [Proxy Group]
 
-PROXY = select, 节点1, 节点2, 节点3, 节点4
+PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6
 
 [Rule]
 
-# direct
 IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,224.0.0.0/24,DIRECT
-
-# proxy
-DOMAIN-SUFFIX,apps.apple.com,PROXY
-
-# jp
-DOMAIN-KEYWORD,dmm.co,节点1
-
-# final
-GEOIP,JP,节点1
-GEOIP,KR,节点2
 GEOIP,CN,DIRECT
 FINAL,PROXY
-
-[URL Rewrite]
-
-^https?://(www.)?(g|google).cn https://www.google.com 302
-
-[REWRITE]
-
-^https?://(www.)?(g|google).cn url 302 https://www.google.com
 ';
 
     }
