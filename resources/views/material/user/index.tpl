@@ -296,7 +296,7 @@
 														6.页面上方的“代理类型”确保是SS，打开顶上的ShadowSocks开关，点一次“应用本页面设置”</p>
 														<p>梅林Clash方案：<br>
 														1.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
-														2.下载<a href="https://t.me/merlinclashcat/300">MerlinClash插件</a>到电脑<br>
+														2.下载<a href="https://t.me/merlinclashcat">MerlinClash插件</a>到电脑<br>
 														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（新机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
 														4.进入Merlin Clash插件，进入“配置文件”标签<br>
 														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
