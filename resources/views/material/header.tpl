@@ -48,9 +48,6 @@
 						<li>
 							<a class="padding-right-lg waves-attach" href="/auth/login"><span class="icon icon-lg margin-right">account_box</span>登录</a>
 						</li>
-						<li>
-							<a class="padding-right-lg waves-attach" href="/auth/register"><span class="icon icon-lg margin-right">pregnant_woman</span>注册</a>
-						</li>
 					</ul>
 				{/if}
 					
@@ -65,12 +62,7 @@
 					<li>
 						<a  href="/"><i class="icon icon-lg">bookmark_border</i>&nbsp;首页</a>
 					</li>
-					<li>
-						<a  href="/tos"><i class="icon icon-lg">text_format</i>&nbsp;TOS</a>
-					</li>
-					<li>
-						<a  href="/code"><i class="icon icon-lg">code</i>&nbsp;邀请码</a>
-					</li>
+
 					{if $user->isLogin}
 					<li>
 						<a  href="/user"><i class="icon icon-lg">person</i>&nbsp;用户中心</a>
@@ -81,9 +73,6 @@
 					{else}
 					<li>
 						<a  href="/auth/login"><i class="icon icon-lg">vpn_key</i>&nbsp;登录</a>
-					</li>
-					<li>
-						<a  href="/auth/register"><i class="icon icon-lg">pregnant_woman</i>&nbsp;注册</a>
 					</li>
 					{/if}
 				</ul>

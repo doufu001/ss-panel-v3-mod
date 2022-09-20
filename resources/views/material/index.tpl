@@ -49,23 +49,6 @@
 								</div>
 							</div>
 						{else}
-							<div class="col-lg-12 col-sm-12">
-								<div class="card card-brand">
-									<div class="card-main">
-										<div class="card-inner">
-											<p class="card-heading">注册</p>
-											<p>
-												没有账户？点击按钮注册一个。
-											</p>
-										</div>
-										<div class="card-action">
-											<div class="card-action-btn pull-left">
-												<a class="btn btn-flat waves-attach waves-light waves-effect" href="/auth/register"><span class="icon">pregnant_woman</span>&nbsp;注册</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 							
 							<div class="col-lg-12 col-sm-12">
 								<div class="card card-brand-accent">
