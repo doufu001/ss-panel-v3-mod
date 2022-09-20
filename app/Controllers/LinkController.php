@@ -360,7 +360,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2021.7.14
+        return '# update: 2022.8.27
 		
 [General]
 
@@ -374,7 +374,7 @@ dns-server = 114.114.114.114, 119.29.29.29, 223.5.5.5, 8.8.8.8, system
 '.$proxy_group.'
 [Proxy Group]
 
-PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6
+PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6, 节点7, 节点8, 节点9, 节点10
 
 [Rule]
 
