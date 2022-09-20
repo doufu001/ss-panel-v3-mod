@@ -301,20 +301,16 @@
 						
 							<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;兑换商店
+									<i class="icon icon-lg">shop</i>&nbsp;老用户商店
 								</a>
 							</li>
 							
-							<li><a href="/user/bought"><i class="icon icon-lg">shopping_cart</i>&nbsp;兑换记录</a></li>
+							<li><a href="/user/bought"><i class="icon icon-lg">shopping_cart</i>&nbsp;老用户记录</a></li>
 							
 							
 
 
-							<li>
-								<a href="/user/code">
-									<i class="icon icon-lg">code</i>&nbsp;活动码兑换
-								</a>
-							</li>
+
 						</ul>
 						
 						{if $user->isAdmin()}

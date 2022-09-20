@@ -36,8 +36,8 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">新手配置指南</p>
-										<p>新用户请根据自己的设备类型进行配置：</p>
+										<p class="card-heading">配置指南</p>
+										<p>新手请根据自己的设备类型点击不同的标签进行客户端配置：</p>
 										
 										<div class="card-inner">
 											<div class="tab-content">
@@ -140,7 +140,7 @@
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_info"><i class="icon icon-lg">info_outline</i>&nbsp;连接信息</a>
 															</li>
 															<li>
-																<a class="waves-attach" data-toggle="tab" href="#all_ss_windows"><i class="icon icon-lg">desktop_windows</i>&nbsp;Win</a>
+																<a class="waves-attach" data-toggle="tab" href="#all_ss_windows"><i class="icon icon-lg">desktop_windows</i>&nbsp;电脑</a>
 															</li>
 															<li>
 																<a class="waves-attach" data-toggle="tab" href="#all_ss_android"><i class="icon icon-lg">android</i>&nbsp;安卓</a>
@@ -164,14 +164,20 @@
 
 														{if URL::SSCanConnect($user)}
 														<dl class="dl-horizontal">
+															<p><dt>协议</dt>
+															<dd>Shadowsocks</p>
 															<p>
 															<dt>服务器地址</dt>
-															<dd>节点1：s1.doufu.in</dd>
-															<dd>节点2：s2.doufu.in</dd>
-															<dd>节点3：s3.doufu.in</dd>
-															<dd>节点4：s4.doufu.in</dd>
-															<dd>节点5：s5.doufu.in</dd>
-															<dd>节点6：s6.doufu.in</dd>
+															<dd>节点1：s1.mpdf.us</dd>
+															<dd>节点2：s2.mpdf.us</dd>
+															<dd>节点3：s3.mpdf.us</dd>
+															<dd>节点4：s4.mpdf.us</dd>
+															<dd>节点5：s5.mpdf.us</dd>
+															<dd>节点6：s6.mpdf.us</dd>
+															<dd>节点7：s7.mpdf.us</dd>
+															<dd>节点8：s8.mpdf.us</dd>
+															<dd>节点9：s9.mpdf.us</dd>
+															<dd>节点10：s10.mpdf.us</dd>
 															</p>
 
 															<p><dt>端口</dt>
@@ -196,32 +202,30 @@
 														{/if}
 													</div>
 													<div class="tab-pane fade" id="all_ss_windows">
-														
-														<p>官方SS方案：<br>
-														1.SS客户端依赖.NET 4.8环境，Win10 1903开始已经集成，如果系统是在2019年前发布的（包括Win7 SP1、Win8.1、Win10 1607-1809），请下载并安装<a href="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe">.NET 4.8环境</a><br>
-														2.点击下载<a href="https://dl.doufu.in/Shadowsocks.7z">SS客户端</a>，解压<br>
-														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
-														4.运行Shadowsocks.exe<br>
-														5.下载<a href="https://wwi.lanzoui.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe即可<br>
-														6.后续使用代理需同时开启Shadowsocks（建议设置开机自启）</p>
-														<p>Clash方案（推荐）：<br>
-														1.点击下载<a href="https://wwi.lanzoui.com/b00c4wxif" target="_blank">Clash for Windows</a>，解压到一个文件夹<br>
+														<p>请确保账号等级不是0！请确保账号等级不是0！请确保账号等级不是0！</p>
+														<p>Clash小白方案：<br>
+														1.点击下载<a href="https://wwn.lanzoub.com/ir41a063divc" target="_blank">百分浏览器定制版</a>，解压到一个文件夹<br>
+														2.点击下载<a href="https://sub.doufu.in/sub?target=clash&filename=config.yaml&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
+														3.将下载好的config.yaml复制到浏览器的文件夹内，确保和clash-windows-386.exe在一起<br>
+														4.双击打开“运行浏览器.bat”即可<br>
+														PS：中途不可关闭clash的日志框</p>
+														<p>Clash方案（推荐，不支持32位系统）：<br>
+														1.点击下载<a href="https://wwi.lanzoui.com/b00c4wxif" target="_blank">Clash for Windows</a>，exe版本直接安装，7z版本需要解压<br>
 														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行Clash for Windows.exe，打开主界面<br>
 														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部“Download from a URL”处，点击右侧的“Download”按钮<br>
 														5.选中刚刚下载的sub配置<br>
-														6.下载<a href="https://wwi.lanzoui.com/b00c3zsfe" target="_blank">百分浏览器麻婆豆腐定制版</a>，解压，运行chrome.exe<br>
-														7.点击浏览器右上角第一个的圆圈图标，选择“Clash模式”</p>
+														6.回到General菜单，勾选“Syestem Proxy”，打开任意浏览器即可<br>
+														PS：如果想给不支持系统代理的网游或者软件使用，可以开启TUN模式，开启方法参考<a href="https://docs.cfw.lbyczf.com/contents/tun.html" target="_blank">这篇文档</a><br>
+														PS2：勾选“Allow LAN”可共享给局域网其它设备使用，如游戏机等</p>
+														<p>官方SS方案：<br>
+														1.SS客户端依赖.NET 4.8环境，Win10 1903开始已经集成，如果系统是在2019年前发布的（包括Win7 SP1、Win8.1、Win10 1607-1809），请下载并安装<a href="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe">.NET 4.8环境</a><br>
+														2.点击下载<a href="https://dl.doufu.in/Shadowsocks.7z">SS客户端</a>，解压<br>
+														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
+														4.运行Shadowsocks.exe，在右下角的纸飞机图标上点右键，选择“系统代理”-“PAC模式”，打开任意浏览器即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
-														<p>官方SS方案：<br>
-														1.下载<a href="https://wwi.lanzoui.com/b00c4v26b" target="_blank">ShadowsocksX-NG</a>，解压，运行<br>
-														2.点击右上角的纸飞机图标，进入“服务器”-“服务器设置”，点左下方的加号<br>
-														3.地址填写：s1.doufu.in，如果用其它节点就把1改成别的数字<br>
-														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
-														5.插件填写：obfs-local，插件选项填写：obfs=http;obfs-host=www.apple.com，确定<br>
-														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
-														<p>ClashX方案（推荐）：<br>
+													    <p>ClashX方案：<br>
 														1.下载<a href="https://wwi.lanzoui.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
 														2.右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
@@ -229,82 +233,77 @@
 														5.点击“添加”，将刚才复制的那串链接填进去，点击“确定”<br>
 														6.刚才添加的配置出现更新时间后，关掉托管管理窗口<br>
 														7.点击右上角ClashX图标上的“设置为系统代理”即可</p>
+														<p>官方SS方案：<br>
+														1.下载<a href="https://wwi.lanzoui.com/b00c4v26b" target="_blank">ShadowsocksX-NG</a>，解压，运行<br>
+														2.点击右上角的纸飞机图标，进入“服务器”-“服务器设置”，点左下方的加号<br>
+														3.地址填写：s1.mpdf.us，如果用其它节点就把1改成别的数字<br>
+														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
+														5.插件填写：obfs-local，插件选项填写：obfs=http;obfs-host=www.apple.com，确定<br>
+														6.点击右上角纸飞机图标上的“打开Shadowsocks”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
-														<p>由于苹果频繁封禁公共账号，故不再此处提供公共账号，请关注群公告。建议自行注册美区/港区/日区等Apple账号，并参考网上的支付攻略</p>
+														<p>建议自行注册美国区Apple账号，并在淘宝搜索“美国区礼品卡”购买App</p>
 														<p>Shadowrocket方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
 														2.长按<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														3.打开Shadowrocket，点击顶部右上角的加号，点击“类型”，选择“Subscribe”<br>
+														3.打开Shadowrocket，点击顶部右上角的加号，确保类型是“Subscribe”<br>
 														4.在URL处粘贴你复制的链接，点击完成<br>
-														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
+														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，需要授权</p>
 														<p>Quantumult X方案（推荐）：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a><br>
 														2.长按<a href="https://sub.doufu.in/sub?target=quanx&list=true&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
-														4.点击顶部的“引用（订阅）”，将刚才复制的链接粘贴进去，点击“确定”<br>
-														5.回到首页，长按右下方的圆形按钮，选择第二个按钮（同时含有三个颜色的那个）<br>
-														6.点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
-														<p>Quantumult方案：<br>
-														1.请确保你已经安装了<a href="https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8">Quantumult</a><br>
-														2.长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														3.打开Quantumult，进入底部的“设置”菜单，滑到页面下方，点击“下载配置文件”，把刚才复制的配置粘贴进去，点击“好”<br>
-														4.下载配置成功后会显示出来，点击“保存”<br>
-														5.回到Quantumult首页，点击顶部右上角的开关，第一次会弹出权限提示，点Allow，需要指纹授权一次</p>
-														<p>Surge方案：<br>
-														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/surge-4/id1442620678">Surge</a><br>
-														2.长按<a href="https://sub.doufu.in/sub?target=surge&ver=4&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														3.打开App，导入该订阅地址</p>
-														<p>Loon方案：<br>
-														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/loon/id1373567447">Loon</a><br>
-														2.长按<a href="https://sub.doufu.in/sub?target=loon&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
-														3.打开App，导入该订阅地址</p>
+														4.点击顶部的“节点资源（订阅）”按钮<br>
+														5.点击右上角的添加资源按钮<br>
+														6.将刚才复制的链接粘贴到“资源路径”中，点击右上角的保存按钮<br>
+														7.回到首页，长按右下方的圆形按钮，选择第二个按钮（三色的那个）切换为规则分流模式<br>
+														8.点击顶部右上角的开关，第一次会弹出权限提示，需要授权</p>
+														<p>Stash方案：<br>
+														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/stash/id1596063349">Stash</a><br>
+														2.长按<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														3.打开Stash，点击底部的设置，选择“配置文件”，点击“从URL下载”<br>
+														4.在URL处粘贴你复制的链接，点击“下载”<br>
+														5.返回首页，确保左上角为“SUB.TXT”，点击右上角的“启动”按钮，第一次会弹出权限提示，需要授权</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_android">
-														<p>官方SS方案：<br>
-														1.下载<a href="https://dl.doufu.in/shadowsocks.apk">SS客户端</a>，安装<br>
-														2.下载<a href="https://dl.doufu.in/simple-obfs.apk">Obfs插件</a>，安装，部分国产手机需要给这个插件设置关联启动权限<br>
-														3.在手机浏览器中长按<a href="{$ss_url_all}">这个链接</a>（不是点击，是长按！），选择“复制链接”<br>
-														4.打开安装好的Shadowsocks，点右上角的加号，选择“从剪贴板导入”<br>
-														5.选中一个节点（如节点1，自带的198开头的节点是假的！）<br>
-														6.点击节点最右侧的编辑按钮（铅笔状），找到“路由”，选择“绕过局域网及中国大陆地址”，点右上角的对勾保存（此步骤每个节点都需要操作一次）<br>
-														7.点击主界面下方的开关，第一次需要授权VPN权限</p>
-														<p>Surfboard方案（推荐）：<br>
+													    <p>请确保账号等级不是0！请确保账号等级不是0！请确保账号等级不是0！</p>
+														<p>Surfboard方案：<br>
 														1.下载<a href="https://dl.doufu.in/Surfboard.apk">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
-														3.运行Surfboard，进入底部第三个“配置”标签<br>
-														4.点加号，选择第一个“使用链接下载”，里面会出现刚才复制的那个地址，点击“下载”<br>
-														5.在出来的编辑配置界面点右下角的保存按钮，“好的”<br>
-														6.点击底部第一个“切换”标签，点右下角的开关，第一次需要授权VPN权限</p>
+														3.运行Surfboard，进入底部的“配置文件”标签<br>
+														4.点加号，选择“从URL导入”，里面会出现刚才复制的那个地址（没有的话手动粘贴进去），点击“导入”<br>
+														6.点击底部第一个“仪表盘”标签，点右下角的开关，第一次需要授权VPN权限</p>
 														<p>Clash方案：<br>
 														1.下载<a href="https://dl.doufu.in/Clash.apk">Clash客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Clash，进入顶部部第二个“配置”按钮<br>
-														4.点击“新配置”，选择“URL”<br>
+														4.点击右上角的加号，选择“URL”<br>
 														5.在出来的界面点击“URL”，将刚刚复制的链接粘贴进去，点确认<br>
 														6.点击右上角的保存按钮，在配置页面选中刚刚创建的配置<br>
 														7.返回首页，点击最顶上“已停止”按钮，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_router">
-														<p>使用MTK处理器的路由器（如红米AC2100、斐讯K2P等）可以参考Padavan方案，使用博通处理器的路由器（如华硕TUF-AX3000、网件RAX50等）可以参考梅林方案。</p>
-														<p>Padavan方案：<br>
-														1.刷入<a href="https://opt.cn2qq.com/padavan/" target="_blank">Padavan固件</a>，刷机教程自行搜索<br>
-														2.进入路由器后台，点首页中间第四个纸飞机图标，点击“转到详细设置”<br>
-														3.在下方的主服务器处填写：s1.doufu.in，如果用其它节点就填具体的数字<br>
-														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
-														5.插件名称填写：obfs-local，插件参数填写：obfs=http;obfs-host=www.apple.com<br>
-														6.页面上方的“代理类型”确保是SS，打开顶上的ShadowSocks开关，点一次“应用本页面设置”</p>
-														<p>梅林Clash方案：<br>
-														1.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
-														2.下载<a href="https://t.me/merlinclashcat">MerlinClash插件</a>到电脑<br>
-														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（新机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
-														4.进入Merlin Clash插件，进入“配置文件”标签<br>
+														<p>梅林Clash方案（适用于华硕、网件等采用博通芯片的路由器，拼多多上的华硕ac86u已经很便宜了~）：<br>
+														1.刷入<a href="https://www.koolcenter.com/">KoolCenter固件</a>，刷机教程自行搜索，也可以请卖家代刷<br>
+														2.下载MerlinClash插件到电脑，MCKP开头的才是主程序，其它的是补丁<br>
+														HND版：<a href="https://wwn.lanzoub.com/b0cmmva3g">点击下载</a>，适用于AC86U/GT5300/AX68U/AX86U/AX88U/AX92U/AX11000/AX6000/RAX80等ARMv8机型<br>
+														AX32版：<a href="https://wwn.lanzoub.com/b0cmmvaqj">点击下载</a>，适用于AX3000/AX5400/AX6600/AX82/AX56/AX58U/AX1800/AX89X/RAX50等ARMv7新机型<br>
+														384版：<a href="https://wwn.lanzoub.com/b0cmmvaud">点击下载</a>，适用于AC66U_B1/AC68U/AC1900/AC1900P/AC87U/AC3200/AC88U/AC3100/RT5300/斐讯K3 G大固件等ARMv7老机型<br>
+														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（部分机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
+														4.进入安装好的Merlin Clash插件，进入“配置文件”标签<br>
 														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.doufu.in/sub?target=clash&config=https://dl.doufu.in/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
 														6.在“重命名”里随意填一个名字，例如clash，点击“Clash订阅”<br>
 														7.回到首页，打开顶部的“Merlin Clash开关”，“配置文件选择”处选中刚才添加的配置，点击最下方的“保存&应用”<br>
 														8.首页的“访问 Clash 管理面板”可以切换节点<br>
+														<p>Padavan方案（适用于使用联发科芯片的路由器，如红米AC2100）：<br>
+														1.刷入<a href="https://opt.cn2qq.com/padavan/" target="_blank">Padavan固件</a>，刷机教程自行搜索<br>
+														2.进入路由器后台，点首页中间第四个纸飞机图标，点击“转到详细设置”<br>
+														3.在下方的主服务器处填写：s1.mpdf.us，如果用其它节点就填具体的数字<br>
+														4.服务器端口填写：{$user->port}，服务器密码填写：{$user->passwd}，加密方式选择：xchacha20-ietf-poly1305<br>
+														5.插件名称填写：obfs-local，插件参数填写：obfs=http;obfs-host=www.apple.com<br>
+														6.页面上方的“代理类型”确保是SS，打开顶上的ShadowSocks开关，点一次“应用本页面设置”</p>
 														<p>梅林SS方案：<br>
-														1.刷入<a href="http://koolshare.cn/forum-96-1.html">梅林固件</a>，刷机教程自行搜索<br>
+														1.刷入<a href="https://www.koolcenter.com/">梅林固件</a>，刷机教程自行搜索<br>
 														2.下载<a href="https://github.com/hq450/fancyss">科学上网插件</a>到电脑<br>
 														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（新机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
 														4.后续操作参考其它平台，切记加密方式选择xchacha20-ietf-poly1305</p>
@@ -412,39 +411,7 @@
 
 
 
-							<div class="card">
-								<div class="card-main">
-									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">签到获取流量</p>
-											<p>流量不会重置，可以通过签到获取流量。</p>
 
-											<p>每次签到可以获取{$config['checkinMin']}~{$config['checkinMax']}MB流量。</p>
-
-											<p>每天可以签到一次。您可以点击按钮或者摇动手机来签到。</p>
-
-											<p>上次签到时间：<code>{$user->lastCheckInTime()}</code></p>
-
-											<p id="checkin-msg"></p>
-
-											{if $geetest_html != null}
-												<div id="popup-captcha"></div>
-											{/if}
-									</div>
-
-									<div class="card-action">
-										<div class="card-action-btn pull-left">
-											{if $user->isAbleToCheckin() }
-												<p id="checkin-btn">
-													<button id="checkin" class="btn btn-brand btn-flat waves-attach"><span class="icon">check</span>&nbsp;签到</button>
-												</p>
-											{else}
-												<p><a class="btn btn-brand disabled btn-flat waves-attach" href="#"><span class="icon">check</span>&nbsp;不能签到</a></p>
-											{/if}
-										</div>
-									</div>
-
-								</div>
-							</div>
 
 
 						{if $enable_duoshuo=='true'}
