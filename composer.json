@@ -8,7 +8,7 @@
     "phpmailer/phpmailer": "~5.2",
     "vlucas/phpdotenv": "~2.1",
     "zeuxisoo/slim-whoops": "0.5.*",
-    "firebase/php-jwt": "~3.0",
+    "firebase/php-jwt": "~6.0",
     "aws/aws-sdk-php": "3.*",
     "gregwar/captcha": "1.*",
     "cloudxns/cloud-xns-api-sdk-php": "*",
