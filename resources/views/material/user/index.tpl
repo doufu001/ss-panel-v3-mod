@@ -280,9 +280,9 @@
 														<p>Merlin Clash方案（适用于华硕、网件等采用博通芯片的路由器）：<br>
 														1.刷入<a href="https://fw.koolcenter.com/" target="_blank">KoolCenter固件</a>，刷机教程自行搜索，也可以请卖家代刷<br>
 														2.下载MerlinClash插件到电脑，MCKP开头的才是主程序，其它的是补丁<br>
-														HND版：<a href="https://wwn.lanzoub.com/b0cmmva3g">点击下载</a>，适用于AC86U/GT5300/AX68U/AX86U/AX88U/AX92U/AX11000/AX6000/AX86U pro/RAX80等ARMv8机型<br>
-														AX32版：<a href="https://wwn.lanzoub.com/b0cmmvaqj">点击下载</a>，适用于AX3000/AX5400/AX6600/AX82U/AX56U/AX58U/AX1800/AX89X/RAX50/AX56Uv2/AX57U等ARMv7新机型<br>
-														384版：<a href="https://wwn.lanzoub.com/b0cmmvaud">点击下载</a>，适用于AC66U_B1/AC68U/AC1900/AC1900P/AC87U/AC3200/AC88U/AC3100/RT5300/斐讯K3 G大固件等ARMv7老机型<br>
+														HND版：<a href="https://wwn.lanzoub.com/b0cmmva3g" target="_blank">点击下载</a>，适用于AC86U/GT5300/AX68U/AX86U/AX88U/AX92U/AX11000/AX6000/AX86U pro/RAX80等ARMv8机型<br>
+														AX32版：<a href="https://wwn.lanzoub.com/b0cmmvaqj" target="_blank">点击下载</a>，适用于AX3000/AX5400/AX6600/AX82U/AX56U/AX58U/AX1800/AX89X/RAX50/AX56Uv2/AX57U等ARMv7新机型<br>
+														384版：<a href="https://wwn.lanzoub.com/b0cmmvaud" target="_blank">点击下载</a>，适用于AC66U_B1/AC68U/AC1900/AC1900P/AC87U/AC3200/AC88U/AC3100/RT5300/斐讯K3 G大固件等ARMv7老机型<br>
 														3.进入路由器后台，打开软件中心，点手动安装，选择下载的gz文件，上传并安装<br>
 														4.进入安装好的Merlin Clash插件，进入“配置文件”标签<br>
 														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
