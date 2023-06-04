@@ -192,13 +192,13 @@
 														<p>请确保账号等级不是0！请确保账号等级不是0！请确保账号等级不是0！</p>
 														<p>Clash小白方案：<br>
 														1.点击下载<a href="https://wwfe.lanzoub.com/b00c3zsfe" target="_blank">百分浏览器定制版</a>，解压到一个文件夹<br>
-														2.点击下载<a href="https://sub.df001.in/sub?target=clash&filename=config.yaml&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
+														2.点击下载<a href="https://sub.df001.in/sub?target=clash&filename=config.yaml&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
 														3.将下载好的config.yaml复制到浏览器的文件夹内，确保和clash-windows-386.exe在一起<br>
 														4.双击打开“运行浏览器.bat”即可<br>
 														PS：中途不可关闭clash的日志框</p>
 														<p>Clash方案（推荐，不支持32位系统）：<br>
 														1.点击下载<a href="https://wwi.lanzoui.com/b00c4wxif" target="_blank">Clash for Windows</a>，exe版本直接安装，7z版本需要解压<br>
-														2.右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行Clash for Windows.exe，打开主界面<br>
 														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部“Download from a URL”处，点击右侧的“Download”按钮<br>
 														5.选中刚刚下载的sub配置<br>
@@ -207,14 +207,14 @@
 														PS2：勾选“Allow LAN”可共享给局域网其它设备使用，在游戏机等设备的代理处填电脑的内网IP，端口填7890</p>
 														<p>官方SS方案：<br>
 														1.SS客户端依赖.NET 4.8环境，Win10 1903开始已经集成，如果系统是在2019年前发布的（包括Win7 SP1、Win8.1、Win10 1607-1809），请下载并安装<a href="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe">.NET 4.8环境</a><br>
-														2.点击下载<a href="https://dl.mpdf.us/Shadowsocks.7z">SS客户端</a>，解压<br>
+														2.点击下载<a href="https://wwfe.lanzouj.com/i8L9R0y7nfyj" target="_blank">SS客户端</a>，解压<br>
 														3.下载你的<a href="/user/getpcconf?is_mu=0&is_ss=1">专属配置文件</a>，复制到刚才的Shadowsocks文件夹里<br>
 														4.运行Shadowsocks.exe，在右下角的纸飞机图标上点右键，选择“系统代理”-“PAC模式”，打开任意浏览器即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_mac">
 													    <p>ClashX方案：<br>
 														1.下载<a href="https://wwi.lanzoui.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
-														2.右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“管理”<br>
 														5.点击“添加”，将刚才复制的那串链接填进去，点击“确定”<br>
@@ -222,10 +222,10 @@
 														7.点击右上角ClashX图标上的“设置为系统代理”即可</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_ios">
-														<p>建议自行注册美国区Apple账号，并在淘宝搜索“美国区礼品卡”购买App</p>
+														<p>可以使用群内公共账号或自行注册美区账号并购买礼品卡</p>
 														<p>Shadowrocket方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
-														2.长按<a href="https://sub.df001.in/sub?target=clash&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Shadowrocket，点击顶部右上角的加号，确保类型是“Subscribe”<br>
 														4.在URL处粘贴你复制的链接，点击完成<br>
 														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，需要授权</p>
@@ -238,7 +238,7 @@
 														6.回到首页，点击顶部右上角的开关，第一次会弹出权限提示，需要授权</p>
 														<p>Loon Lite方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/loon-lite/id6444029612">Loon Lite</a><br>
-														2.长按<a href="https://sub.df001.in/sub?target=loon&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.df001.in/sub?target=loon&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Loon Lite，点击右上角的加号<br>
 														4.在URL处粘贴你复制的链接，在别名处随意写一个名字，点保存<br>
 														5.会弹出所有节点的列表，关掉<br>
@@ -254,7 +254,7 @@
 														8.点击顶部右上角的开关，第一次会弹出权限提示，需要授权</p>
 														<p>Stash方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/stash/id1596063349">Stash</a><br>
-														2.长按<a href="https://sub.df001.in/sub?target=clash&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Stash，点击底部的设置，选择“配置文件”，点击“从URL下载”<br>
 														4.在URL处粘贴你复制的链接，点击“下载”<br>
 														5.返回首页，确保左上角为“SUB.TXT”，点击右上角的“启动”按钮，第一次会弹出权限提示，需要授权</p>
@@ -262,14 +262,14 @@
 													<div class="tab-pane fade" id="all_ss_android">
 													    <p>请确保账号等级不是0！请确保账号等级不是0！请确保账号等级不是0！</p>
 														<p>Surfboard方案：<br>
-														1.下载<a href="https://dl.mpdf.us/Surfboard.apk">Surfboard客户端</a>，安装<br>
+														1.下载<a href="https://wwfe.lanzouj.com/b00c4v2kf">Surfboard客户端</a>，安装<br>
 														2.在手机浏览器中长按<a href="/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Surfboard，进入底部的“配置文件”标签<br>
 														4.点加号，选择“从URL导入”，里面会出现刚才复制的那个地址（没有的话手动粘贴进去），点击“导入”<br>
 														6.点击底部第一个“仪表盘”标签，点右下角的开关，第一次需要授权VPN权限</p>
 														<p>Clash方案：<br>
-														1.下载<a href="https://dl.mpdf.us/Clash.apk">Clash客户端</a>，安装<br>
-														2.在手机浏览器中长按<a href="https://sub.df001.in/sub?target=clash&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
+														1.下载<a href="https://wwfe.lanzouj.com/iNRUA0y95sre">Clash客户端</a>，安装<br>
+														2.在手机浏览器中长按<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Clash，进入顶部第二个“配置”按钮<br>
 														4.点击右上角的加号，选择“URL”<br>
 														5.在出来的界面点击“URL”，将刚刚复制的链接粘贴进去，点确认<br>
@@ -277,15 +277,15 @@
 														7.返回首页，点击最顶上“已停止”按钮，第一次需要授权VPN权限</p>
 													</div>
 													<div class="tab-pane fade" id="all_ss_router">
-														<p>梅林Clash方案（适用于华硕、网件等采用博通芯片的路由器，拼多多上的华硕ac86u已经很便宜了~）：<br>
-														1.刷入<a href="https://www.koolcenter.com/">KoolCenter固件</a>，刷机教程自行搜索，也可以请卖家代刷<br>
+														<p>Merlin Clash方案（适用于华硕、网件等采用博通芯片的路由器）：<br>
+														1.刷入<a href="https://fw.koolcenter.com/" target="_blank">KoolCenter固件</a>，刷机教程自行搜索，也可以请卖家代刷<br>
 														2.下载MerlinClash插件到电脑，MCKP开头的才是主程序，其它的是补丁<br>
-														HND版：<a href="https://wwn.lanzoub.com/b0cmmva3g">点击下载</a>，适用于AC86U/GT5300/AX68U/AX86U/AX88U/AX92U/AX11000/AX6000/RAX80等ARMv8机型<br>
-														AX32版：<a href="https://wwn.lanzoub.com/b0cmmvaqj">点击下载</a>，适用于AX3000/AX5400/AX6600/AX82/AX56/AX58U/AX1800/AX89X/RAX50等ARMv7新机型<br>
+														HND版：<a href="https://wwn.lanzoub.com/b0cmmva3g">点击下载</a>，适用于AC86U/GT5300/AX68U/AX86U/AX88U/AX92U/AX11000/AX6000/AX86U pro/RAX80等ARMv8机型<br>
+														AX32版：<a href="https://wwn.lanzoub.com/b0cmmvaqj">点击下载</a>，适用于AX3000/AX5400/AX6600/AX82U/AX56U/AX58U/AX1800/AX89X/RAX50/AX56Uv2/AX57U等ARMv7新机型<br>
 														384版：<a href="https://wwn.lanzoub.com/b0cmmvaud">点击下载</a>，适用于AC66U_B1/AC68U/AC1900/AC1900P/AC87U/AC3200/AC88U/AC3100/RT5300/斐讯K3 G大固件等ARMv7老机型<br>
-														3.进入路由器后台，打开软件中心，点离线安装，选择下载的gz文件，上传并安装（部分机型会提示非法关键词，需要开启SSH并执行 sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh ）<br>
+														3.进入路由器后台，打开软件中心，点手动安装，选择下载的gz文件，上传并安装<br>
 														4.进入安装好的Merlin Clash插件，进入“配置文件”标签<br>
-														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://gist.github.com/doufu001/936660d5802f6821e164f208a0991a29/raw/183f426cae71c863f106e86081346410a18c6604/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
+														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
 														6.在“重命名”里随意填一个名字，例如clash，点击“Clash订阅”<br>
 														7.回到首页，打开顶部的“Merlin Clash开关”，“配置文件选择”处选中刚才添加的配置，点击最下方的“保存&应用”<br>
 														8.首页的“访问 Clash 管理面板”可以切换节点<br>
