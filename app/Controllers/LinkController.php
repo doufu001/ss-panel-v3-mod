@@ -360,7 +360,7 @@ class LinkController extends BaseController
             $proxy_name .= ",".$item['remark'];
         }
 
-        return '# update: 2022.8.27
+        return '# update: 2023.6.4
 		
 [General]
 
@@ -374,7 +374,7 @@ dns-server = 114.114.114.114, 119.29.29.29, 223.5.5.5, 8.8.8.8, system
 '.$proxy_group.'
 [Proxy Group]
 
-PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6, 节点7, 节点8, 节点9, 节点10
+PROXY = select, 节点1, 节点2, 节点3, 节点4, 节点5, 节点6, 节点7, 节点8
 
 [Rule]
 
@@ -383,6 +383,8 @@ IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,224.0.0.0/24,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 GEOIP,CN,DIRECT
 FINAL,PROXY
 ';
