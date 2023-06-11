@@ -192,13 +192,13 @@
 														<p>请确保账号等级不是0！请确保账号等级不是0！请确保账号等级不是0！</p>
 														<p>Clash小白方案：<br>
 														1.点击下载<a href="https://wwfe.lanzoub.com/b00c3zsfe" target="_blank">百分浏览器定制版</a>，解压到一个文件夹<br>
-														2.点击下载<a href="https://sub.df001.in/sub?target=clash&filename=config.yaml&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
+														2.点击下载<a href="https://sub.df001.tk/sub?target=clash&filename=config.yaml&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">配置文件</a><br>
 														3.将下载好的config.yaml复制到浏览器的文件夹内，确保和clash-windows-386.exe在一起<br>
 														4.双击打开“运行浏览器.bat”即可<br>
 														PS：中途不可关闭clash的日志框</p>
 														<p>Clash方案（推荐，不支持32位系统）：<br>
 														1.点击下载<a href="https://wwi.lanzoui.com/b00c4wxif" target="_blank">Clash for Windows</a>，exe版本直接安装，7z版本需要解压<br>
-														2.右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.df001.tk/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行Clash for Windows.exe，打开主界面<br>
 														4.点击左侧Profiles菜单，将刚刚复制的链接粘贴到顶部“Download from a URL”处，点击右侧的“Download”按钮<br>
 														5.选中刚刚下载的sub配置<br>
@@ -214,7 +214,7 @@
 													<div class="tab-pane fade" id="all_ss_mac">
 													    <p>ClashX方案：<br>
 														1.下载<a href="https://wwi.lanzoui.com/b00c4v2mh" target="_blank">ClashX</a>，安装<br>
-														2.右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
+														2.右键复制<a href="https://sub.df001.tk/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a><br>
 														3.运行ClashX，第一次要输入系统密码<br>
 														4.在右上角ClashX图标上选择“配置”-“托管配置”-“管理”<br>
 														5.点击“添加”，将刚才复制的那串链接填进去，点击“确定”<br>
@@ -225,7 +225,7 @@
 														<p>可以使用群内公共账号或自行注册美区账号并购买礼品卡</p>
 														<p>Shadowrocket方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a><br>
-														2.长按<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.df001.tk/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Shadowrocket，点击顶部右上角的加号，确保类型是“Subscribe”<br>
 														4.在URL处粘贴你复制的链接，点击完成<br>
 														5.点击顶部“未连接”旁边的开关，第一次会弹出权限提示，需要授权</p>
@@ -238,14 +238,14 @@
 														6.回到首页，点击顶部右上角的开关，第一次会弹出权限提示，需要授权</p>
 														<p>Loon Lite方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/loon-lite/id6444029612">Loon Lite</a><br>
-														2.长按<a href="https://sub.df001.in/sub?target=loon&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.df001.tk/sub?target=loon&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Loon Lite，点击右上角的加号<br>
 														4.在URL处粘贴你复制的链接，在别名处随意写一个名字，点保存<br>
 														5.会弹出所有节点的列表，关掉<br>
 														6.点击首页上方的“自动分流”旁边的开关，第一次会弹出权限提示，需要授权</p>
 														<p>Quantumult X方案（推荐）：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/quantumult-x/id1443988620">Quantumult X</a><br>
-														2.长按<a href="https://sub.df001.in/sub?target=quanx&list=true&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.df001.tk/sub?target=quanx&list=true&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Quantumult X，点击右下方的圆形按钮，进入设置页<br>
 														4.点击顶部的“节点资源（订阅）”按钮<br>
 														5.点击右上角的添加资源按钮<br>
@@ -254,7 +254,7 @@
 														8.点击顶部右上角的开关，第一次会弹出权限提示，需要授权</p>
 														<p>Stash方案：<br>
 														1.请确保你已经安装了<a href="https://apps.apple.com/us/app/stash/id1596063349">Stash</a><br>
-														2.长按<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
+														2.长按<a href="https://sub.df001.tk/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>（不是点击，是长按！），点击“拷贝”<br>
 														3.打开Stash，点击底部的设置，选择“配置文件”，点击“从URL下载”<br>
 														4.在URL处粘贴你复制的链接，点击“下载”<br>
 														5.返回首页，确保左上角为“SUB.TXT”，点击右上角的“启动”按钮，第一次会弹出权限提示，需要授权</p>
@@ -269,7 +269,7 @@
 														6.点击底部第一个“仪表盘”标签，点右下角的开关，第一次需要授权VPN权限</p>
 														<p>Clash方案：<br>
 														1.下载<a href="https://wwfe.lanzouj.com/iNRUA0y95sre">Clash客户端</a>，安装<br>
-														2.在手机浏览器中长按<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
+														2.在手机浏览器中长按<a href="https://sub.df001.tk/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，选择“复制链接网址”<br>
 														3.运行Clash，进入顶部第二个“配置”按钮<br>
 														4.点击右上角的加号，选择“URL”<br>
 														5.在出来的界面点击“URL”，将刚刚复制的链接粘贴进去，点确认<br>
@@ -285,7 +285,7 @@
 														384版：<a href="https://wwn.lanzoub.com/b0cmmvaud" target="_blank">点击下载</a>，适用于AC66U_B1/AC68U/AC1900/AC1900P/AC87U/AC3200/AC88U/AC3100/RT5300/斐讯K3 G大固件等ARMv7老机型<br>
 														3.进入路由器后台，打开软件中心，点手动安装，选择下载的gz文件，上传并安装<br>
 														4.进入安装好的Merlin Clash插件，进入“配置文件”标签<br>
-														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.df001.in/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
+														5.找到“Clash-Yaml配置下载”，右键复制<a href="https://sub.df001.tk/sub?target=clash&config=https://github.com/doufu001/config/raw/master/sub.ini&url={$baseUrl}/link/{$ios_token}?is_ss=1">这个链接</a>，粘贴到右侧的文本框中<br>
 														6.在“重命名”里随意填一个名字，例如clash，点击“Clash订阅”<br>
 														7.回到首页，打开顶部的“Merlin Clash开关”，“配置文件选择”处选中刚才添加的配置，点击最下方的“保存&应用”<br>
 														8.首页的“访问 Clash 管理面板”可以切换节点<br>
